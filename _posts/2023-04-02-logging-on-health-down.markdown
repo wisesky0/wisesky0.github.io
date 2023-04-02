@@ -21,7 +21,7 @@ health 체크는 "org.springframework.boot.actuate.health.HealthIndicator" 를 �
 
 HealthIndicator 내부를 보면 `default Health getHealth(boolean includeDetails)` 에서 `health()` 를 호출하는데 health() 결과에서는 상세사유가 지워지지 않았으니 이 메쏘드를 포인트컷 해 보았으나, 두가지 문제점이 있었다.
 
-1. default 구현하지 않으면 사용한다는 뜻으로, 구현체에서 그대로 사용되지 않아 `health()`가 호출된다는 보장이 없다.
+1. default 구현하지 않으면 사용한다는 뜻으로, 구현체에서 오버라이딩했다면 `health()`가 호출된다는 보장이 없다.
 
 2. `getHealth(..)`에서 `health()`가 호출되었더라도, 동일 클래쓰 내에서 호출되어 어드바이스가 수행되지 못한다. 스프링 aop 은 빈을 프록싱하므로, HealthIndicator 클래쓰로 처음 진입하는 getHealth() 직전에는 어드바이스를 수행하지만, 이미 클래쓰 내부로 들어와서 `health()`로 호출될떄는 프록싱이 없어 어드바이스를 수행하지 못한다.
 
