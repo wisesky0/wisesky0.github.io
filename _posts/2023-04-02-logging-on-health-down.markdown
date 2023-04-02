@@ -5,7 +5,7 @@
 
 ## 분석
 
-"/actuator/health" 가 수해되는 과정에서 logging 하는 부분이 있다면, log level을 설정하면 되겠지만 없었다.
+"/actuator/health" 응답을 준비하는 과정에서 logging 하는 부분이 있다면, log level을 설정하면 되겠지만 없었다.
 그래서, 다른 방법을 찾아보기로 했다.
 
 health endpoint 에서 "org.springframework.boot.actuate.health.HealthIndicator" 를 상속받아 구현한 빈을 조회하여 모두 호출한다. 이 지점을 AOP aroud 로 감싸기로 했다.
