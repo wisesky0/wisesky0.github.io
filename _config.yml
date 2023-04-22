@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: H2s(HyperHivestream) Framework.
+title: HyperHivestream Framework.
 email: your-email@example.com
 description: HyperHivestream is a platform for developers who are passionate and 
   driven, who want to collaborate and innovate at lightning speed.
