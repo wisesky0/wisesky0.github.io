@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+HyperHivestream is a platform for developers who are passionate and driven, who want to collaborate and innovate at lightning speed. It is a place where ideas flow freely and energy runs high, where users are encouraged to push themselves to the limit and beyond. With HyperHivestream, developers can tap into a community of like-minded individuals who share their vision for the future of technology, and work together to create the next big thing. It is a place where innovation knows no bounds, and where the possibilities are endless.
