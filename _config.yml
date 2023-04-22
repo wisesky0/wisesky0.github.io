@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Hello Hivestream Framework!
+title: Hello! Hivestream Framework
 email: your-email@example.com
-description: Hello Hivestream Framework community is a platform for developers who are passionate and 
+description: Hello! Hivestream Framework community is a platform for developers who are passionate and 
   driven, who want to collaborate and innovate at lightning speed.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
