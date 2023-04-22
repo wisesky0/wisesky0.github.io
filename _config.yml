@@ -18,12 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: H2Seo's notebook
+title: H2s(HyperHivestream) Framework.
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: HyperHivestream is a platform for developers who are passionate and 
+  driven, who want to collaborate and innovate at lightning speed. It is a place 
+  where ideas flow freely and energy runs high, where users are encouraged to 
+  push themselves to the limit and beyond. With HyperHivestream, developers can
+  tap into a community of like-minded individuals who share their vision for the 
+  future of technology, and work together to create the next big thing. It is a 
+  place where innovation knows no bounds, and where the possibilities are endless.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
